@@ -1,16 +1,12 @@
 //
-//  main.swift
+//  AppConsole.swift
 //  TestAppConsole
 //
 //  Created by wookyoung on 18/12/2018.
 //  Copyright © 2018 wookyoung. All rights reserved.
 //
 
-import MuckoSwift
+import Foundation
 
-let tests = [
-    TestMucko.self,
-    TestAppConsole.self,
-]
-
-UnitTest.run(tests)
+class AppConsole {
+}

@@ -8,7 +8,9 @@
 
 /* Begin PBXBuildFile section */
 		1C2E394F21C82DF100CACB25 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C2E394E21C82DF100CACB25 /* main.swift */; };
-		1C2E395721C83AD800CACB25 /* mucko.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C2E395621C83AD800CACB25 /* mucko.swift */; };
+		1C2E395721C83AD800CACB25 /* test-mucko.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C2E395621C83AD800CACB25 /* test-mucko.swift */; };
+		1C2E395921C83F9E00CACB25 /* test-appconsole.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C2E395821C83F9E00CACB25 /* test-appconsole.swift */; };
+		1C2E395C21C83FE700CACB25 /* AppConsole.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C2E395B21C83FE700CACB25 /* AppConsole.swift */; };
 		85A62CD3F73C0A290470A4A3 /* libPods-TestAppConsole.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D669B1AE7E9AAC7D8622E31F /* libPods-TestAppConsole.a */; };
 /* End PBXBuildFile section */
 
@@ -27,7 +29,9 @@
 /* Begin PBXFileReference section */
 		1C2E394B21C82DF100CACB25 /* TestAppConsole */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = TestAppConsole; sourceTree = BUILT_PRODUCTS_DIR; };
 		1C2E394E21C82DF100CACB25 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
-		1C2E395621C83AD800CACB25 /* mucko.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = mucko.swift; sourceTree = "<group>"; };
+		1C2E395621C83AD800CACB25 /* test-mucko.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "test-mucko.swift"; sourceTree = "<group>"; };
+		1C2E395821C83F9E00CACB25 /* test-appconsole.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "test-appconsole.swift"; sourceTree = "<group>"; };
+		1C2E395B21C83FE700CACB25 /* AppConsole.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppConsole.swift; sourceTree = "<group>"; };
 		AF7F971CB55F4BE851B7788A /* Pods-TestAppConsole.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TestAppConsole.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TestAppConsole/Pods-TestAppConsole.debug.xcconfig"; sourceTree = "<group>"; };
 		D669B1AE7E9AAC7D8622E31F /* libPods-TestAppConsole.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-TestAppConsole.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E4C417E3C6DB44168550C6BF /* Pods-TestAppConsole.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TestAppConsole.release.xcconfig"; path = "Pods/Target Support Files/Pods-TestAppConsole/Pods-TestAppConsole.release.xcconfig"; sourceTree = "<group>"; };
@@ -75,6 +79,7 @@
 		1C2E394D21C82DF100CACB25 /* TestAppConsole */ = {
 			isa = PBXGroup;
 			children = (
+				1C2E395A21C83FC300CACB25 /* appconsole */,
 				1C2E395521C83AC800CACB25 /* test */,
 				1C2E394E21C82DF100CACB25 /* main.swift */,
 			);
@@ -84,9 +89,18 @@
 		1C2E395521C83AC800CACB25 /* test */ = {
 			isa = PBXGroup;
 			children = (
-				1C2E395621C83AD800CACB25 /* mucko.swift */,
+				1C2E395621C83AD800CACB25 /* test-mucko.swift */,
+				1C2E395821C83F9E00CACB25 /* test-appconsole.swift */,
 			);
 			path = test;
+			sourceTree = "<group>";
+		};
+		1C2E395A21C83FC300CACB25 /* appconsole */ = {
+			isa = PBXGroup;
+			children = (
+				1C2E395B21C83FE700CACB25 /* AppConsole.swift */,
+			);
+			path = appconsole;
 			sourceTree = "<group>";
 		};
 		7FA63FF5C53DCBD2746730B5 /* Frameworks */ = {
@@ -181,7 +195,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				1C2E394F21C82DF100CACB25 /* main.swift in Sources */,
-				1C2E395721C83AD800CACB25 /* mucko.swift in Sources */,
+				1C2E395921C83F9E00CACB25 /* test-appconsole.swift in Sources */,
+				1C2E395721C83AD800CACB25 /* test-mucko.swift in Sources */,
+				1C2E395C21C83FE700CACB25 /* AppConsole.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
