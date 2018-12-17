@@ -1,5 +1,5 @@
 //
-//  main.swift
+//  mucko.swift
 //  TestAppConsole
 //
 //  Created by wookyoung on 18/12/2018.
@@ -8,6 +8,8 @@
 
 import MuckoSwift
 
-let tests = [TestMucko.self]
-
-UnitTest.run(tests)
+class TestMucko: WTestCase {
+    @objc func test_add() {
+        Assert.equal(3, 1+2)
+    }
+}
