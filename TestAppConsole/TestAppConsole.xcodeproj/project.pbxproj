@@ -323,9 +323,8 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = AF7F971CB55F4BE851B7788A /* Pods-TestAppConsole.debug.xcconfig */;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = U2KBENECEZ;
+				DEVELOPMENT_TEAM = "";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
 			};
@@ -335,9 +334,8 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = E4C417E3C6DB44168550C6BF /* Pods-TestAppConsole.release.xcconfig */;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = U2KBENECEZ;
+				DEVELOPMENT_TEAM = "";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
 			};

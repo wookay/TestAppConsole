@@ -1,0 +1,20 @@
+notifications:
+  email: false
+language: objective-c
+xcode_workspace: TestAppConsole/TestAppConsole.xcworkspace
+xcode_scheme: TestAppConsole
+xcode_destination: platform=macOS,arch=x86_64
+podfile: TestAppConsole/Podfile
+cache:
+  - bundler
+  - cocoapods
+before_install:
+  - gem install cocoapods
+  - gem update xcodeproj
+  - cd TestAppConsole
+  - pod update
+script:
+  - pwd
+  - ls
+  - xcodebuild -workspace TestAppConsole.xcworkspace/ -scheme TestAppConsole -destination 'platform=macOS,arch=x86_64' -derivedDataPath ./DerivedData -quiet clean build
+  - ./DerivedData/Build/Products/Debug/TestAppConsole
