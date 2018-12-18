@@ -1,7 +1,7 @@
 source 'https://github.com/CocoaPods/Specs.git'
 
 def pod_muckoswift
-  pod 'MuckoSwift', :git => 'https://github.com/wookay/MuckoSwift.git', :branch => 'master'
+  pod 'MuckoSwift', git: 'https://github.com/wookay/MuckoSwift.git', branch: 'master'
 end
 
 target 'TestAppConsole' do
