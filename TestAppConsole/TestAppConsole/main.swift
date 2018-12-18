@@ -8,9 +8,4 @@
 
 import MuckoSwift
 
-let tests = [
-    TestMucko.self,
-    TestAppConsole.self,
-]
-
 UnitTest.run(tests)
