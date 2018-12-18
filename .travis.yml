@@ -8,7 +8,7 @@ before_install:
   - gem install cocoapods
   - gem update xcodeproj
   - cd TestAppConsole
-  - pod install
+  - pod update 
 script:
   - pwd
   - ls
