@@ -1,7 +1,7 @@
 source 'https://github.com/CocoaPods/Specs.git'
 
 def pod_muckoswift
-  pod 'MuckoSwift', '~> 0.1.6'
+  pod 'MuckoSwift', :git => 'https://github.com/wookay/MuckoSwift.git', :branch => 'master'
 end
 
 target 'TestAppConsole' do
@@ -10,6 +10,6 @@ target 'TestAppConsole' do
 end
 
 target 'TestiOS' do
-  platform :ios, '8.0'
+  platform :ios, '11.4'
   pod_muckoswift()
 end

@@ -3,7 +3,7 @@ all:
 	make osx
 
 ios:
-	xcodebuild -workspace TestAppConsole.xcworkspace/ -scheme TestiOS -destination 'platform=iOS Simulator,name=iPhone 6,OS=9.0' -derivedDataPath ./DerivedData -quiet build
+	xcodebuild -workspace TestAppConsole.xcworkspace/ -scheme TestiOS -destination 'platform=iOS Simulator,name=iPhone 6,OS=12.0' -derivedDataPath ./DerivedData -quiet build
 	otool -L ./DerivedData/Build/Products/Debug-iphonesimulator/TestiOS.app/TestiOS
 
 osx:
