@@ -28,7 +28,7 @@ class TestObjcRuntime: WTestCase {
         let b = "b"
         let ob = b as NSObject
         Assert.True(isa(b, String.self))
-        Assert.True(isa(ob, NSTaggedPointerString.self))
+        Assert.equal(typeof(ob), NSTaggedPointerString.self)
     }
 
 }
