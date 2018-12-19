@@ -1,6 +1,9 @@
 notifications:
   email: false
 language: objective-c
+xcode_destination:
+  - platform=iOS Simulator,name=iPhone 6,OS=11.4
+  - platform=macOS,arch=x86_64
 cache:
   - bundler
   - cocoapods
@@ -14,7 +17,7 @@ before_install:
 script:
   - pwd
   - ls
-  - # xcodebuild -workspace TestAppConsole.xcworkspace/ -scheme TestiOS -destination 'platform=iOS Simulator,name=iPhone 6,OS=11.4' -derivedDataPath ./DerivedData -quiet build
-  - # otool -L ./DerivedData/Build/Products/Debug-iphonesimulator/TestiOS.app/TestiOS
+  - xcodebuild -workspace TestAppConsole.xcworkspace/ -scheme TestiOS -destination 'platform=iOS Simulator,name=iPhone 6,OS=11.4' -derivedDataPath ./DerivedData -quiet build
+  - otool -L ./DerivedData/Build/Products/Debug-iphonesimulator/TestiOS.app/TestiOS
   - xcodebuild -workspace TestAppConsole.xcworkspace/ -scheme TestAppConsole -destination 'platform=macOS,arch=x86_64' -derivedDataPath ./DerivedData -quiet build
   - ./DerivedData/Build/Products/Debug/TestAppConsole
