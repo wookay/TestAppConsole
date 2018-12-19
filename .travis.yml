@@ -9,6 +9,7 @@ before_install:
   - gem update xcodeproj
   - cd TestAppConsole
   - pod install
+  - pod update MuckoSwift
 script:
   - pwd
   - ls
