@@ -5,10 +5,10 @@ cache:
   - bundler
   - cocoapods
 before_install:
-  - gem install cocoapods
+  - gem install cocoapods --pre
   - gem update xcodeproj
   - cd TestAppConsole
-  - pod update 
+  - pod install
 script:
   - pwd
   - ls
