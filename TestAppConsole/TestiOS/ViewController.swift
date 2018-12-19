@@ -15,9 +15,9 @@ class ViewController: UIViewController {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
 
+        tests.append(contentsOf: [TestiOS.self])
         UnitTest.run(tests)
     }
-
 
 }
 

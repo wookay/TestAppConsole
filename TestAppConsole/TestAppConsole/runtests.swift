@@ -1,4 +1,5 @@
-let tests = [
+var tests = [
     TestMucko.self,
     TestAppConsole.self,
+    TestObjcRuntime.self,
 ]

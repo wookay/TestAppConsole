@@ -9,7 +9,9 @@
 import MuckoSwift
 
 class TestMucko: WTestCase {
+
     @objc func test_add() {
         Assert.equal(3, 1+2)
     }
+
 }
