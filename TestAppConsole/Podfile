@@ -2,9 +2,7 @@ source 'https://github.com/CocoaPods/Specs.git'
 
 def pod_muckoswift
   pod 'MuckoSwift', git: 'https://github.com/wookay/MuckoSwift.git', branch: 'master'
-  pod 'SwiftJSONRPC', git: 'https://github.com/wookay/SwiftJSONRPC.git', branch: 'custom'
-  pod 'PromiseKit'
-  pod 'Alamofire'
+  pod 'JSONRPCKit'
 end
 
 target 'TestAppConsole' do

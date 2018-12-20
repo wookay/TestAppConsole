@@ -22,6 +22,8 @@
 		1C2E39CA21C9136A00CACB25 /* AppConsole.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C2E395B21C83FE700CACB25 /* AppConsole.swift */; };
 		1C2E39CB21C9136D00CACB25 /* test-mucko.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C2E395621C83AD800CACB25 /* test-mucko.swift */; };
 		1C2E39CC21C9136D00CACB25 /* test-appconsole.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C2E395821C83F9E00CACB25 /* test-appconsole.swift */; };
+		1C6F657A21CC042F00B44B94 /* test-jsonrpc.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C6F657921CC042F00B44B94 /* test-jsonrpc.swift */; };
+		1C6F657B21CC042F00B44B94 /* test-jsonrpc.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C6F657921CC042F00B44B94 /* test-jsonrpc.swift */; };
 		1C6FD93F21CA339E009DA76B /* objc-runtime.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C6FD93E21CA339E009DA76B /* objc-runtime.swift */; };
 		1C6FD94021CA339E009DA76B /* objc-runtime.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C6FD93E21CA339E009DA76B /* objc-runtime.swift */; };
 		1C6FD94221CA33B4009DA76B /* test-objc-runtime.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C6FD94121CA33B4009DA76B /* test-objc-runtime.swift */; };
@@ -70,6 +72,7 @@
 		1C2E39BE21C911FF00CACB25 /* TestiOSTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestiOSTests.swift; sourceTree = "<group>"; };
 		1C2E39C021C911FF00CACB25 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		1C2E39C721C912C600CACB25 /* runtests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = runtests.swift; sourceTree = "<group>"; };
+		1C6F657921CC042F00B44B94 /* test-jsonrpc.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "test-jsonrpc.swift"; sourceTree = "<group>"; };
 		1C6FD93E21CA339E009DA76B /* objc-runtime.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "objc-runtime.swift"; sourceTree = "<group>"; };
 		1C6FD94121CA33B4009DA76B /* test-objc-runtime.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "test-objc-runtime.swift"; sourceTree = "<group>"; };
 		1C6FD94421CA346E009DA76B /* test-ios.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "test-ios.swift"; sourceTree = "<group>"; };
@@ -159,6 +162,7 @@
 				1C2E395821C83F9E00CACB25 /* test-appconsole.swift */,
 				1C6FD94121CA33B4009DA76B /* test-objc-runtime.swift */,
 				1C6FD94421CA346E009DA76B /* test-ios.swift */,
+				1C6F657921CC042F00B44B94 /* test-jsonrpc.swift */,
 			);
 			path = test;
 			sourceTree = "<group>";
@@ -421,6 +425,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				1C6FD93F21CA339E009DA76B /* objc-runtime.swift in Sources */,
+				1C6F657A21CC042F00B44B94 /* test-jsonrpc.swift in Sources */,
 				1C2E394F21C82DF100CACB25 /* main.swift in Sources */,
 				1C6FD94221CA33B4009DA76B /* test-objc-runtime.swift in Sources */,
 				1C2E39C821C912C600CACB25 /* runtests.swift in Sources */,
@@ -441,6 +446,7 @@
 				1C2E39C921C912C600CACB25 /* runtests.swift in Sources */,
 				1C2E39CC21C9136D00CACB25 /* test-appconsole.swift in Sources */,
 				1C2E39CA21C9136A00CACB25 /* AppConsole.swift in Sources */,
+				1C6F657B21CC042F00B44B94 /* test-jsonrpc.swift in Sources */,
 				1C6FD94321CA33B4009DA76B /* test-objc-runtime.swift in Sources */,
 				1C2E39CB21C9136D00CACB25 /* test-mucko.swift in Sources */,
 			);
