@@ -3,9 +3,15 @@ source 'https://github.com/CocoaPods/Specs.git'
 def pod_muckoswift
   pod 'MuckoSwift', git: 'https://github.com/wookay/MuckoSwift.git', branch: 'master'
   pod 'JSONRPCKit'
+  pod 'Embassy'
 end
 
 target 'TestAppConsole' do
+  platform :osx, '10.12'
+  pod_muckoswift()
+end
+
+target 'TestOSX' do
   platform :osx, '10.12'
   pod_muckoswift()
 end

@@ -3,4 +3,5 @@ var tests = [
     TestAppConsole.self,
     TestObjcRuntime.self,
     TestJSONRPC.self,
+    TestEmbassy.self,
 ]
