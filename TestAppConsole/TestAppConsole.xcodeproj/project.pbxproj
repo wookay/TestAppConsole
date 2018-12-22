@@ -44,6 +44,9 @@
 		1CC4E2BB21CE3F260077A1B8 /* test-jsonrpc.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C6F657921CC042F00B44B94 /* test-jsonrpc.swift */; };
 		1CC4E2BC21CE3F2E0077A1B8 /* AppConsole.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C2E395B21C83FE700CACB25 /* AppConsole.swift */; };
 		1CC4E2BD21CE3F2E0077A1B8 /* objc-runtime.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C6FD93E21CA339E009DA76B /* objc-runtime.swift */; };
+		1CD7A9E421CEB999003F47B7 /* webserver.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CD7A9E321CEB999003F47B7 /* webserver.swift */; };
+		1CD7A9E521CEB999003F47B7 /* webserver.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CD7A9E321CEB999003F47B7 /* webserver.swift */; };
+		1CD7A9E621CEB999003F47B7 /* webserver.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CD7A9E321CEB999003F47B7 /* webserver.swift */; };
 		2D15F1338BED0EBF612F7159 /* libPods-TestiOS.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 95C6179DAB8C7C465A6413F3 /* libPods-TestiOS.a */; };
 		85A62CD3F73C0A290470A4A3 /* libPods-TestAppConsole.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D669B1AE7E9AAC7D8622E31F /* libPods-TestAppConsole.a */; };
 /* End PBXBuildFile section */
@@ -105,6 +108,7 @@
 		1CC4E2A121CDAEA00077A1B8 /* TestOSX.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = TestOSX.entitlements; sourceTree = "<group>"; };
 		1CC4E2A621CDAEA00077A1B8 /* TestOSXTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TestOSXTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		1CC4E2B421CDB00B0077A1B8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1CD7A9E321CEB999003F47B7 /* webserver.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = webserver.swift; sourceTree = "<group>"; };
 		75B8F1F312C29A4B74513599 /* libPods-TestOSX.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-TestOSX.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		95C6179DAB8C7C465A6413F3 /* libPods-TestiOS.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-TestiOS.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		9EEFF380A9B9B38630EA9CFC /* Pods-TestiOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TestiOS.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TestiOS/Pods-TestiOS.debug.xcconfig"; sourceTree = "<group>"; };
@@ -222,6 +226,7 @@
 		1C2E395A21C83FC300CACB25 /* appconsole */ = {
 			isa = PBXGroup;
 			children = (
+				1CD7A9E321CEB999003F47B7 /* webserver.swift */,
 				1C2E395B21C83FE700CACB25 /* AppConsole.swift */,
 				1C6FD93E21CA339E009DA76B /* objc-runtime.swift */,
 			);
@@ -602,6 +607,7 @@
 				1C2E395921C83F9E00CACB25 /* test-appconsole.swift in Sources */,
 				1C2E395721C83AD800CACB25 /* test-mucko.swift in Sources */,
 				1C2E395C21C83FE700CACB25 /* AppConsole.swift in Sources */,
+				1CD7A9E421CEB999003F47B7 /* webserver.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -620,6 +626,7 @@
 				1C6F657B21CC042F00B44B94 /* test-jsonrpc.swift in Sources */,
 				1C6FD94321CA33B4009DA76B /* test-objc-runtime.swift in Sources */,
 				1C2E39CB21C9136D00CACB25 /* test-mucko.swift in Sources */,
+				1CD7A9E521CEB999003F47B7 /* webserver.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -636,6 +643,7 @@
 			files = (
 				1CC4E2B321CDAEEC0077A1B8 /* test-embassy.swift in Sources */,
 				1CC4E2BD21CE3F2E0077A1B8 /* objc-runtime.swift in Sources */,
+				1CD7A9E621CEB999003F47B7 /* webserver.swift in Sources */,
 				1CC4E2B621CE3F1A0077A1B8 /* runtests.swift in Sources */,
 				1CC4E2B921CE3F260077A1B8 /* test-objc-runtime.swift in Sources */,
 				1CC4E29A21CDAE9F0077A1B8 /* ViewController.swift in Sources */,
