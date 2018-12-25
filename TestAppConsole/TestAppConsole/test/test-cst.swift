@@ -12,7 +12,7 @@ import MuckoSwift
 
 class TestCST: WTestCase {
     let cst = CST()
-    
+
     @objc func test_IDENTIFIER() {
         let data = Data(string: """
             {"val": "f", "fullspan": 1, "span": 1}
@@ -20,7 +20,7 @@ class TestCST: WTestCase {
         let id = cst.decode(IDENTIFIER.self, data: data)!
         Assert.True(id == IDENTIFIER(val: "f", fullspan: 1, span: 1))
     }
-    
+
     @objc func test_EXPR() {
         let data = Data(string: """
             {"args":[{"fullspan":1,"span":1,"val":"f"}], "fullspan": 1, "span": 1}

@@ -16,7 +16,7 @@ struct NS {
     static func swift_property_names(_ a: AnyObject) -> [String] {
         return Mirror(reflecting: a).children.filter { $0.label != nil }.map { $0.label! }
     }
-    
+
     static func method_names(_ klass: AnyClass) -> [String] {
         var count: UInt32 = 0
         let methods = class_copyMethodList(klass, &count)
@@ -29,7 +29,7 @@ struct NS {
         free(methods)
         return result
     }
-    
+
     static func method_names(_ obj: NSObject) -> [String] {
         let klass: AnyClass = object_getClass(obj)!
         return self.method_names(klass)

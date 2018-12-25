@@ -18,7 +18,7 @@ struct IDENTIFIER: LeafNode, Decodable {
     var val: String
     var fullspan: Int
     var span: Int
-    
+
     static func ==(_ lhs: IDENTIFIER, _ rhs: IDENTIFIER) -> Bool {
         return lhs.val == rhs.val && lhs.fullspan == rhs.fullspan && lhs.span == rhs.span
     }
@@ -32,7 +32,7 @@ struct EXPR: Decodable {
     enum CodingKeys: String, CodingKey {
         case args, fullspan, span
     }
-    
+
     public init(args: Array<[String: Any]>, fullspan: Int, span: Int) {
         self.args = args
         self.fullspan = fullspan
@@ -49,7 +49,7 @@ struct EXPR: Decodable {
 }
 
 struct Quotenode {
-    
+
 }
 
 class CST {
