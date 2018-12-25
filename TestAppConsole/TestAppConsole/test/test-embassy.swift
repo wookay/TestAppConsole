@@ -31,7 +31,7 @@ class TestEmbassy: WTestCase {
             Assert.equal(resp.statusCode, 404)
             test_cnt += 1
         }
-        web.stop(after: 0.3)
+        web.stop(after: 0.2)
         Assert.equal(test_cnt, 2)
     }
 

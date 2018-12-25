@@ -12,8 +12,12 @@ import MuckoSwift
 class TestAppConsole: WTestCase {
 
     @objc func test_appconsole() {
-        let console = AppConsole()
-        Assert.True(isa(console, AppConsole.self))
+        let appconsole = AppConsole(initial: self)
+        Assert.True(isa(appconsole, AppConsole.self))
+        Assert.equal(appconsole.initial as? TestAppConsole, self)
+        Assert.True(isa(self, TestAppConsole.self))
+//        appconsole.run()
+//        appconsole.stop()
     }
 
 }
